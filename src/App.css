@@ -1,0 +1,37 @@
+
+body {width:100%; padding:0; margin:25pt; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 160px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+.Login{
+  margin-top: 40px;
+
+}
+.ui.raised.segment{
+  margin-left: 32%;
+  margin-top: 4%;
+  margin-right:30%;
+}
+.formErrors{
+  color: red;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
